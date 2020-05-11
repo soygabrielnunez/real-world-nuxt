@@ -9,7 +9,8 @@
     "build": "nuxt build",
     "start": "nuxt start",
     "generate": "nuxt generate",
-    "start-api": "json-server --port 3001 --watch db.json --delay 2000"
+    "start-api": "json-server --port 3001 --watch db.json --delay 2000",
+    "heroku-postbuild": "npm run build"
   },
   "dependencies": {
     "nuxt": "^2.0.0",
